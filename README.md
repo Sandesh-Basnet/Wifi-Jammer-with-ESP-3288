@@ -1,66 +1,53 @@
-Wi-Fi Jamming using Node MCU (ESP8266)
-Overview
-This repository demonstrates a live Wi-Fi jamming setup using the Node MCU (ESP8266). It provides insight into how wireless interference can disrupt communication, the setup process, and the ethical considerations associated with such activities.
+# Wi-Fi Jamming using Node MCU (ESP8266)
 
-⚠️ Disclaimer
-Wi-Fi jamming is illegal in many jurisdictions and may disrupt essential services. This project is for educational purposes only and should be conducted with proper authorization and within controlled environments. Misuse can lead to legal consequences.
+## Overview
+This project demonstrates a live setup for Wi-Fi jamming using the Node MCU (ESP8266). It is intended to educate about wireless interference, its impact, and mitigation techniques.
 
-Features
-Understand the principles of Wi-Fi jamming
-Learn to program the Node MCU for signal interference
-Observe the impact of jamming on various devices
-Explore mitigation strategies for Wi-Fi interference
-Getting Started
-Hardware Requirements
-Node MCU (ESP8266)
-USB cable
-Optional: External antenna for stronger signals
-Software Requirements
-Arduino IDE: Download here.
-ESP8266 Libraries: Install via Arduino IDE's Library Manager.
-Setup Guide
-1. Hardware Setup
-Connect the Node MCU to your computer via USB.
-(Optional) Attach an external antenna to the Node MCU for improved signal strength.
-2. Software Installation
-Install Arduino IDE.
-In the Arduino IDE:
-Go to File > Preferences.
-Add the following URL to the "Additional Board Manager URLs" field:
-http://arduino.esp8266.com/stable/package_esp8266com_index.json.
-Open Tools > Board > Board Manager and install the ESP8266 platform.
-Install the required ESP8266 libraries.
-3. Wi-Fi Jamming Code
-Obtain the Wi-Fi jamming code from this repository.
-Open the code in Arduino IDE.
-Adjust parameters such as frequency and power as needed.
-Upload the code to the Node MCU.
-Execution
-Power up the Node MCU and run the uploaded code.
-The device will emit jamming signals on the specified frequency bands.
-Observe the impact on nearby devices (e.g., smartphones, laptops, IoT devices).
-Effects of Jamming
-Smartphones: Loss of Wi-Fi connectivity, dropped calls.
-Laptops/PCs: Interrupted internet access.
-IoT Devices: Disrupted communication and functionality.
-Mitigation Techniques
-Use strong Wi-Fi signals with high-gain antennas.
-Employ frequency-hopping technologies like FHSS.
-Implement robust encryption and strong passwords.
-Ethical Considerations
-Jamming should never be used maliciously.
-Ensure you have proper authorization before testing.
-Avoid disrupting public or emergency services.
-License
-This project is licensed under the MIT License. See LICENSE for more details.
+⚠️ **Disclaimer**  
+Wi-Fi jamming is **illegal in many jurisdictions** and can disrupt critical services. This project is strictly for **educational purposes** and should be conducted with appropriate permissions in a controlled environment.
 
-Contributors
-Sandesh Basnet
-Aayan K.C
-Aaditya Roila
-Ronak Kunwar
-Feel free to raise issues or contribute to this project.
+---
 
-Q&A
-If you have any questions, feel free to open an issue or contact us directly via this repository.
+## Features
+- Demonstrates how to use Node MCU (ESP8266) to emit jamming signals.
+- Shows the impact of jamming on connected devices (e.g., smartphones, IoT, and laptops).
+- Explores mitigation strategies to prevent Wi-Fi disruptions.
 
+---
+
+## Requirements
+
+### Hardware
+- Node MCU (ESP8266)
+- USB cable
+- (Optional) External antenna for enhanced signal strength
+
+### Software
+1. **Arduino IDE**: Download from [arduino.cc](https://www.arduino.cc/en/software).
+2. **ESP8266 Libraries**: Install through Arduino IDE's Library Manager.
+
+---
+
+## Setup Instructions
+
+### 1. Hardware Setup
+1. Connect the Node MCU to your computer via a USB cable.
+2. Attach an optional external antenna to improve signal quality.
+
+### 2. Install Arduino IDE and ESP8266 Libraries
+1. Install Arduino IDE from [here](https://www.arduino.cc/en/software).
+2. Add the ESP8266 platform to Arduino IDE:
+   - Go to `File > Preferences`.
+   - Add the following URL to "Additional Board Manager URLs":  
+     ```
+     http://arduino.esp8266.com/stable/package_esp8266com_index.json
+     ```
+   - Go to `Tools > Board > Board Manager` and install the **ESP8266** package.
+
+3. Install the required libraries via Arduino IDE’s `Tools > Manage Libraries`.
+
+### 3. Clone Repository and Flash the Code
+1. Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/your-repo-name/esp8266-wifi-jammer.git
+   cd esp8266-wifi-jammer
