@@ -103,10 +103,10 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## Contributors
 
-- **Sandesh Basnet**  [Sandesh Basnet](https://github.com/Sandesh-Basnet)
-- **Aayan K.C** [Aayan K.C](https://github.com/aayankc0210)
+- [Sandesh Basnet](https://github.com/Sandesh-Basnet)
+- [Aayan K.C](https://github.com/aayankc0210)
 - **Aaditya Roila**
-- **Ronak Kunwar**[Ronak Kunwar](https://github.com/RBR-Ronak)
+- [Ronak Kunwar](https://github.com/RBR-Ronak)
 
 ---
 
