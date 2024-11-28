@@ -1,5 +1,5 @@
 # Wi-Fi Jamming using Node MCU (ESP8266)
-
+![ESP8266 Hardware](hardware_device_picture.jpg)
 ## Overview
 This repository demonstrates how to use a Node MCU (ESP8266) for Wi-Fi jamming. The project showcases the effects of wireless interference on various devices and explores mitigation techniques.
 
