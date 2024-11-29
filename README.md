@@ -105,7 +105,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 - [Sandesh Basnet](https://github.com/Sandesh-Basnet)
 - [Aayan K.C](https://github.com/aayankc0210)
-- **Aaditya Roila**
+- [Aaditya Roila](https://github.com/ROILAsir5)
 - [Ronak Kunwar](https://github.com/RBR-Ronak)
 
 ---
